@@ -1,0 +1,50 @@
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  box-sizing: initial;
+  padding: 25px 0px;
+}
+
+.bg-testimoni {
+  background-color: #9c69e2;
+}
+
+.testimoni-item {
+  box-shadow: 0 15px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.slick-dots {
+  text-align: left !important;
+  bottom: -35px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}
+
+.cus-slider-nav {
+  position: absolute;
+  right: 85px;
+  bottom: 30px;
+}
+
+.slider-testimoni {
+  width: 1500px;
+}
+
+@media screen and (max-width: 820px) {
+  .slider-testimoni {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .slider-testimoni {
+    width: 100%;
+  }
+  .cus-slider-nav {
+    right: 40px;
+  }
+}

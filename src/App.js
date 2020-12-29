@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from 'react'
+import {
+  About,
+  Features,
+  Footer,
+  Hero,
+  Navbar,
+  Sidebar,
+  Testimoni,
+} from './components'
 
 function App() {
+  const [showSidebar, setShowSidebar] = useState(false)
+  const toggleSidebar = () => setShowSidebar(!showSidebar)
+  const [scrollNav, setScrollNav] = useState(false)
+  const changeNav = () => {
+    if (window.scrollY >= 250) {
+      setScrollNav(true)
+    } else {
+      setScrollNav(false)
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeNav)
+  }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar
+        toggleSidebar={toggleSidebar}
+        showSidebar={showSidebar}
+        scrollNav={scrollNav}
+      />
+      <div className='container mx-auto lg:px-20 px-10'>
+        {showSidebar && <Sidebar toggleSidebar={toggleSidebar} />}
+
+        <Hero />
+        <About />
+        <Features />
+      </div>
+      <Testimoni />
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App

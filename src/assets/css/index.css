@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica.ttf') format('truetype'),
+    url('../fonts/helvetica-light-587ebe5a59211.ttf') format('truetype'),
+    url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf') format('truetype'),
+    url('../fonts/Helvetica-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/AvenirLTStd-Book.otf') format('opentype'),
+    url('../fonts/AvenirLTStd-Roman.otf') format('opentype'),
+    url('../fonts/AvenirLTStd-Black.otf') format('opentype');
+}
