@@ -3,7 +3,7 @@ import { IMGHero } from '../../assets'
 
 const Hero = () => {
   return (
-    <div className='flex space-x-10 mt-10' id='hero'>
+    <div className='flex space-x-10 mt-20' id='hero'>
       <div className='lg:w-4/6 w-full'>
         <h1 className='xl:text-7xl text-5xl font-bold text-gray-800 mb-8 font-helvetica'>
           Save your data storage here.

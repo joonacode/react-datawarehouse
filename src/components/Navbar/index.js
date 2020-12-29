@@ -9,8 +9,8 @@ const Navbar = ({ toggleSidebar, showSidebar, scrollNav }) => {
   }
   return (
     <div
-      className={`bg-white ${
-        scrollNav ? 'sticky top-0 py-5 z-20 shadow' : 'py-10'
+      className={`bg-white my-10 ${
+        scrollNav ? 'sticky top-0 py-5 z-20 shadow' : ''
       }`}
     >
       <div className='container mx-auto lg:px-20 px-10'>
