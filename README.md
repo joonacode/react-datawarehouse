@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/joonacode/react-datawarehouse/">
+  <a href="https://joonacode.github.io/react-datawarehouse/">
     <img src="screenshot.png" alt="screenshot">
   </a>
 
@@ -8,7 +8,7 @@ Practice slicing web design into a website page with Tailwindcss. Design by <a h
 <br/ >
   <p align="center">
     <br />
-    <a href="https://github.com/joonacode/react-datawarehouse/">View Demo</a>
+    <a href="https://joonacode.github.io/react-datawarehouse/">View Demo</a>
   </p>
 </p>
 
