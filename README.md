@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/joonacode/react-smartwatch/">
+  <a href="https://github.com/joonacode/react-datawarehouse/">
     <img src="screenshot.png" alt="screenshot">
   </a>
 
