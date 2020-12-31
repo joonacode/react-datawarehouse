@@ -4,7 +4,7 @@
   </a>
 
   <h1 align="center">React Datawarehouse</h3>
-Practice slicing web design into a website page with Tailwindcss. Design by <a href="slabdsgn.com">slabdsgn.com</a>
+Practice slicing web design into a website page with Tailwindcss. Design by <a href="https://dribbble.com/musicalryo">Aryo Pamungkas</a>
 <br/ >
   <p align="center">
     <br />
